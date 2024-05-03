@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="dom.css">
+    <!-- <script src="practice.js" defer ></script> -->
+    <!-- <script src="getElementById.js" defer></script> -->
+    <!-- <script src="elementByquerySelector.js" defer></script> -->
+    <!-- <script src="changeTextusingJS.js" defer></script> -->
+    <!-- <script src="iterators.js" defer></script> -->
+    <!-- <script src="classesWithJs.js" defer></script> -->
+    <!-- <script src="event.js" defer></script> -->
+    <!-- <script src="eventWithThis.js" defer></script> -->
+    <script src="mywork.js" defer></script>
+</head>
+<body>
+    
+        
+            <header class="header">
+                 <nav class=" nav container">
+
+                    <h1 class="logo">website</h1>
+                    <ul class="nav-items">
+                        <li class="nav-item"><a href="">Home</a></li>
+                        <li class="nav-item"><a href="">Todo</a></li>
+                        <li class="nav-item"><a href="">Sign Up</a></li>
+                    </ul>
+                </nav>
+
+                <div class="headline">
+                    <h2 id="main-heading">"manage your task"<span style="display: none;">hello</span></h2>
+                    <button class="btn btn-headline">
+                        learn more
+                    </button>
+                </div>
+            
+            </header>
+
+
+            <section class="todo-section container">
+                <h2>your plan for today ?</h2>
+
+                <form class="form">
+                    <input type="text"   placeholder="Add Todo">
+                    <input type="submit" value="Add todo" class="btn">
+                </form>
+
+                <ul class="todo-list">
+                    <li>
+                        <span class="text">do thid do that</span>
+                
+                   <div class="todo-buttons">
+                    <button class="btn mywork done">submit</button>
+                    <button class="btn mywork remove">delete</button>
+                   </div>
+                    </li>   
+                 </ul>
+            </section>
+
+            <section class="section-signup container">
+                <h2>sign up</h2>
+                <form class="signupForm">
+            
+                     <div class="form-group">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" id="username">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="password">password</label>
+                        <input type="password" name="username" id="password">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="phone">phone</label>
+                        <input type="tel" name="phone" id="phone">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" name="Email" id="Email">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="about">About Yourself</label>
+                        <textarea name="about" id="about" cols="30" rows="10">
+
+                        </textarea>
+                        <button type="submit" class="btn signup-btn">Submit</button>
+                     </div>
+                </form>
+            </section>
+        
+
+</body>
+</html>

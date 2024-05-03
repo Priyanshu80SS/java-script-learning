@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 5rem;
+    color:white;
+    font-size:2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.grandParent{
+    background: #b1d4e0;
+    color:black;
+    
+
+}
+.parent{
+    background: #145da0;
+}
+.child{
+    background: #0c2d48;
+}
